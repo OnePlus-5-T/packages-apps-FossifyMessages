@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+    <exception package="org.fossify.messages">
+        <permission name="android.permission.READ_SMS" fixed="false" />
+        <permission name="android.permission.WRITE_SMS" fixed="false" />
+        <permission name="android.permission.SEND_SMS" fixed="false" />
+        <permission name="android.permission.RECEIVE_SMS" fixed="false" />
+        <permission name="android.permission.RECEIVE_MMS" fixed="false" />
+        <permission name="android.provider.Telephony.SMS_RECEIVED" fixed="false" />
+        <permission name="android.permission.WAKE_LOCK" fixed="false" />
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM" fixed="false" />
+        <permission name="android.permission.READ_PHONE_STATE" fixed="false" />
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+        <permission name="android.permission.READ_SYNC_SETTINGS" fixed="false" />
+    </exception>
+</exceptions>

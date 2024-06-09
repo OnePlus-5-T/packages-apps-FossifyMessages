@@ -1,0 +1,19 @@
+android_app_import {
+	name: "FossifyMessages",
+	apk: "FossifyMessages.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: true,
+	},
+	preprocessed: true,
+	overrides: ["messaging"],
+	required: ["fossifymessages-permissions.xml"],
+	vendor: true,
+}
+
+prebuilt_etc {
+	name: "fossifymessages-permissions.xml",
+	src: "fossifymessages-permissions.xml",
+	sub_dir: "default-permissions",
+	vendor: true,
+}
